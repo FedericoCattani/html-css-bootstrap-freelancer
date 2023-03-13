@@ -52,6 +52,22 @@ img{
   color: white;
 }
 
+/*contacts*/
+
+.fc-form input, textarea{
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-radius: 0;
+  padding-left: 0;
+}
+
+.fc-form button{
+  background: #31BC9C;
+  border: none;
+  
+}
+ 
 
 
 .footer-top{

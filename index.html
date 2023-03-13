@@ -129,15 +129,36 @@
 
     <!-- contacts  -->
     <section id="contacts"  class="my-5">
-      <div class="container text-center">
+      <div class="container text-center text-uppercase">
         <h2>contacts</h2>
-        <div class="star">*</div>
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+        </div>
       </div>
-      <div class="sc-container">
+
+      <div class="fc-container">
         <div class="container-fluid">
-          <div class="row">
-            <div class="col">
-              FORM
+          <div class="row text-center justify-content-center">
+            <div class="col-6">
+              <form action="#" class="fc-form">
+                <div class="mb-3">
+                  <input type="text" id="name" placeholder="Name">
+                </div>
+
+                <div class="mb-3">
+                  <input type="email" name="name@dominio.it" id="mail" placeholder="E-mail">
+                </div>
+
+                <div class="mb-3">
+                  <input type="text" placeholder="Phone Number" id="number">
+                </div>
+
+                <div class="mb-3">
+                  <textarea name="" id="message" cols="20" rows="5" placeholder="Message"></textarea>
+                </div>
+
+                <button class="btn btn-outline-success" type="submit">Invia</button>
+              </form>
             </div>
           </div>
         </div>
