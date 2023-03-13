@@ -6,13 +6,29 @@
 header{
   background-color: #2C3E50;
   height: 90px;
+  color: white;
 }
 
+li{
+  display: inline;
+  list-style: none;
+}
+
+a{
+  padding-right: 20px;
+  color: white;
+  text-decoration: none;
+}
 
 .fc-jumbotron{
   background-color: #31BC9C;
   height: 495px;
   color: white;
+}
+
+.image img{
+ width: 20%;
+ margin-bottom: 60px;
 }
 
 .fc-container{
