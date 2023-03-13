@@ -20,21 +20,39 @@ a{
   text-decoration: none;
 }
 
-.fc-jumbotron{
-  background-color: #31BC9C;
-  height: 495px;
-  color: white;
-}
-
-.image img{
- width: 20%;
- margin-bottom: 60px;
+img{
+  width: 100%;
+  border-radius: 10px;
 }
 
 .fc-container{
   width: 60%;
   margin: 0 auto;
 }
+
+/*jumbotron*/
+
+.fc-jumbotron{
+  background-color: #31BC9C;
+  height: 495px;
+  color: white;
+}
+
+/*portfolio*/
+
+.image img{
+ width: 20%;
+ margin-bottom: 60px;
+}
+
+/*about*/
+
+#about{
+  background-color: #31BC9C;
+  color: white;
+}
+
+
 
 .footer-top{
  background-color: #3A546D;
