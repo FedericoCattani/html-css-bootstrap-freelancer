@@ -54,7 +54,7 @@ img{
 
 /*contacts*/
 
-.fc-form input, textarea{
+.fc-form input{
   border-left: none;
   border-top: none;
   border-right: none;
@@ -65,15 +65,30 @@ img{
 .fc-form button{
   background: #31BC9C;
   border: none;
-  
+}
+
+.fc-form textarea{
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-radius: 0;
+  padding-left: 0;
 }
  
 
-
+/*footer*/
 .footer-top{
  background-color: #3A546D;
- height: 100px;
+ height: 270px;
 } 
+
+.footer-top i{
+  padding-left: 10px;
+}
+
+.footer-top a{
+  color: #31BC9C;
+}
 
 .footer-bottom{
  background-color: #2C3E50;
