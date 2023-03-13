@@ -1,16 +1,31 @@
 .debug{
-  min-height: 80px;
   background-color: springgreen;
   border: 1px solid black;
 }
 
 header{
-  background-color: red;
-  min-height: 80px;
+  background-color: #2C3E50;
+  height: 90px;
 }
 
-.de_bug{
-  background-color: blue;
-  border: 1px solid black;
-  height: 30px;
+
+.fc-jumbotron{
+  background-color: #31BC9C;
+  height: 495px;
+  color: white;
+}
+
+.fc-container{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.footer-top{
+ background-color: #3A546D;
+ height: 100px;
+} 
+
+.footer-bottom{
+ background-color: #2C3E50;
+ height: 50px;
 }
